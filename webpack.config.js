@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+//const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 module.exports = {
   entry: './app/main.js',
   output: {
@@ -15,6 +15,6 @@ module.exports = {
   },
   plugins: [
     new webpack.BannerPlugin('版权所有，翻版必究'),
-    new UglifyJsPlugin()
+    //new UglifyJsPlugin()
   ],
 };
