@@ -1,0 +1,27 @@
+{
+  "name": "learnwebpack",
+  "version": "1.0.0",
+  "description": "This repo is a collection of simple demos of Webpack.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "dev": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludgoole/webpack.git"
+  },
+  "author": "L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ludgoole/webpack/issues"
+  },
+  "homepage": "https://github.com/ludgoole/webpack#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.20.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.10.0"
+  }
+}
